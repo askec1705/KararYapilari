@@ -24,7 +24,7 @@ namespace KararYapilari
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            int adet = Convert.ToInt32(txtKitap.Text);
+            int adet = Convert.ToInt32(txtKitap.Text);//bunu try catch ile yap "elli" yazılamasın.
             int birimFiyat = 5;
             double ödemenizGerekenTutar;
             int toplamTutar;
